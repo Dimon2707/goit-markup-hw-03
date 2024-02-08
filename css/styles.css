@@ -3,6 +3,7 @@ body {
     font-family: Roboto, sans-serif;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
+    width: 1600px;
 }
 
 :root {
@@ -18,12 +19,35 @@ body {
     --logo-color-footer: #FFFFFF;
 }
 
+h1,h2,h3,h4 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+/* container */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /* logo */
 .logo {
@@ -88,11 +112,17 @@ ul {
 .hero-btn {
     font-family: inherit;
     color: var(--white-color);
+    border: 1px solid transparent;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     text-align: center;
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 4px;
+    min-width: 200px;
+    height: 50px;
     background-color: var(--accent-color);
 }
 .hero-btn {
@@ -157,6 +187,8 @@ ul {
     color: var(--logo-color-footer);
 }
 .footer p{
+    padding: 0;
+    margin: 0;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
