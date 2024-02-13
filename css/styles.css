@@ -315,7 +315,9 @@ ul {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.filters {
+.filters-list {
+    display: inline-block;
+    flex-wrap: wrap;
     margin-bottom: 34px;  
 }
 .filter-btn {
