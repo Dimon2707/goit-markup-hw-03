@@ -34,6 +34,10 @@ ul {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 .hero,
 .feature,
 .direction,
@@ -160,13 +164,16 @@ ul {
 .hero-btn {
     font-family: inherit;
     color: var(--white-color);
+
     border: 1px solid transparent;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     text-align: center;
+
     display: inline-block;
+
     padding: 10px 24px;
     border-radius: 4px;
     min-width: 200px;
@@ -270,6 +277,7 @@ ul {
 /* section-footer */
 .footer {
     background-color: var(--hero-background-color);
+    padding: 60px;
 }
 .footer .logo {
     color: var(--accent-color);
@@ -289,6 +297,7 @@ ul {
     margin-bottom: 12px;
 }
 .footer-contact{
+    display: block;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -326,6 +335,7 @@ ul {
 }
 
 .btn {
+    display: inline-block;
     border-radius: 4px;
     border: var(--secondary-background-color);
 
@@ -356,6 +366,8 @@ ul {
 .projects-list .item {
     margin-right: 30px;
     margin-bottom: 30px;
+
+    text-decoration: none;
 }
 
 .projects-list .item:nth-child(3n) {
@@ -366,7 +378,12 @@ ul {
     margin-bottom: 0;
 }
 
-.project-title {
+.content {
+    padding: 24px;
+    border: 1px solid #eee;
+}
+
+.content-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -375,18 +392,10 @@ ul {
     margin-bottom: 4px;    
 }
 
-.project-descr {
+.content-descr {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
     margin-bottom: 20px;
-}
-
-.project-item {
-    border: 1px solid #eee;
-}
-
-.projects-list .item {
-    text-decoration: none;
 }
