@@ -423,7 +423,7 @@ address {
 }
 
 .content {
-    padding: 24px;
+    padding: 20px 24px;
 
     border: 1px solid #eee;
     border-top: 0;
@@ -443,5 +443,4 @@ address {
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-    margin-bottom: 20px;
 }
